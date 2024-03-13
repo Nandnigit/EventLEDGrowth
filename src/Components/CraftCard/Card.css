@@ -62,6 +62,10 @@
     text-decoration: none;
     color: white;
 }
+.registerBtn:hover{
+    cursor: pointer;
+    background-color:#029bf6;
+}
 @media (max-width:991px){
     .event-card{
         flex-direction: column;

@@ -42,7 +42,7 @@ function Card() {
             </div>
         </div>
         <button className="registerBtn">
-            Register
+            Register Now
         </button>
     </div>
       
