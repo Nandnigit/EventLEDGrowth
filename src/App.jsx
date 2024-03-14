@@ -1,17 +1,18 @@
-import { useState } from 'react'
 
-import './App.css'
-import Card from './Components/CraftCard/Card'
-import Testinomial from './Components/Testimonial/Testimonial'
-import Session from './Components/SessionCards/Session'
-import Video from './Components/VideoSection/Video'
-import Footer from './Components/Footer/Footer'
-import FAQ from './Components/FAQ/FAQ'
+import { useState } from 'react'
+import Card from './Components/Card'
+import Testinomial from './Components/Testimonial'
+import Session from './Components/Session'
+import Video from './Components/Video'
+import Footer from './Components/Footer'
+import FAQ from './Components/FAQ'
+import Eventledpart1 from './Components/Eventledpart1'
 
 function App() {
 
   return (
     <>
+    <Eventledpart1/>
       <Card />
       <Testinomial />
       <Session />
